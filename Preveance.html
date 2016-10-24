@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://recette.asaf.asso.fr/index.php?module=querybox&etat=accueil" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/index.php?module=querybox&amp;etat=courtier/courtier01</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=a[title=&quot;Mes Projets&quot;] &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Nouveau</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=date_s</td>
+	<td>11/11/1960</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=regime_s</td>
+	<td>label=Travailleur Non Salarié</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ongletprevoyance</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=p.onglet_professionnels_button.button_prevoyance</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPopUp</td>
+	<td>PrevproWindow</td>
+	<td>60000</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=PrevproWindow</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=preveance_profession</td>
+	<td>den</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>4000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=rab</td>
+	<td>100 000</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.contrat.clearfix</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=formule</td>
+	<td>label=Medium</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#formule &gt; option[value=&quot;2&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Devis</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//table[@id='assures_devis_liste']/tbody/tr[2]/td[2]/select</td>
+	<td>label=Monsieur</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@type='text']</td>
+	<td>alexandre</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[2]</td>
+	<td>schmitz</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=souscripteur_produit_1</td>
+	<td>label=alexandre schmitz</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=adresse1_9677</td>
+	<td>11 avenue du test</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ui-id-4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=code_postal_9677</td>
+	<td>06530</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=mail_9677</td>
+	<td>alexandre.schmitz@epitech.eu</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Adhesion</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=situation_familiale_9677</td>
+	<td>label=Célibataire</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=naissance_pays_9677</td>
+	<td>label=FRANCE</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=piece_identite_9677</td>
+	<td>label=Carte nationale d'identité</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ui-id-1305</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=commune_naissance_9677</td>
+	<td>MARS</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=generer_dossier_adhesion</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

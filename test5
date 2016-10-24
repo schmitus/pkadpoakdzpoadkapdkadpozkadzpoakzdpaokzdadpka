@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="tests.html">IHM</a></td></tr>
+<tr><td><a href="tests1.html">Connexion au compte adhérents</a></td></tr>
+<tr><td><a href="test2.html">Connexion au compte partenaires</a></td></tr>
+<tr><td><a href="test3.html">IHM espace partenaires</a></td></tr>
+<tr><td><a href="test4.html">Commande produits espace adhérent</a></td></tr>
+<tr><td><a href="all.html">Création d'un projet préveance</a></td></tr>
+</tbody></table>
+</body>
+</html>

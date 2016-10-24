@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://recette.asaf.asso.fr/index.php?module=querybox&etat=accueil" />
+<title>Connexion au compte adhérents</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Connexion au compte adhérents</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/index.php?module=querybox&amp;etat=accueil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=logoHeaderNav</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.lock-unlock</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.adh_auth.elements[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=J'ai oublié mon mot de passe</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=boutonannul</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.lock-unlock</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//a/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=boutonannul</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.lock-unlock</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=identifiant1</td>
+	<td>service.web@gieps.fr</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>Lenouveau5</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>document.adh_auth.elements[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=identifiant1</td>
+	<td>service.web@gieps.fr</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>Lenouveau=5</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>document.adh_auth.elements[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Déconnexion</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
